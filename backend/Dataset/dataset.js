@@ -1,4 +1,4 @@
-let product = [
+ let product = [
 
     {
         "Task Name": "01",
@@ -23,6 +23,7 @@ let product = [
         "End Date": "1/3/12",
         "State": "Active",
     }
+   
 ]
 
 let user =[
@@ -38,3 +39,6 @@ let user =[
         "Link To Content": "www.riddim.com",
     }
 ]
+
+
+module.exports = {product,user}

@@ -3,7 +3,8 @@ const tbdata = require('../Dataset/dataset.js')
 
 const datadetl = (req,res)=>{
     try {
-        res.send(tbdata)
+        res.json(tbdata)
+        console.log(tbdata);
     } catch (error) {
        console.log(error); 
     }

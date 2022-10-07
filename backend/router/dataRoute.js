@@ -1,8 +1,8 @@
-const { Router } = require('express')
-const express = require('express')
+const express = require("express");
 const {datadetl} = require('../controllers/dataController')
 
+const router = express.Router();
 
-Router.get('/',datadetl)
+router.get('/',datadetl)
 
 module.exports = router
